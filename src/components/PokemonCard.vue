@@ -15,11 +15,10 @@
 
 <script>
 import {
-    defineComponent,
     computed
 } from 'vue';
 
-export default defineComponent({
+export default {
     name: 'PokemonCard',
     props: {
         pokemon: {
@@ -48,7 +47,7 @@ export default defineComponent({
             formattedFooterName,
         };
     },
-});
+};
 </script>
 
 <style scoped>
