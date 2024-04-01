@@ -55,7 +55,7 @@ export default defineComponent({
 .card {
     border: 1px solid #EAEAEA;
     border-radius: 10px;
-    width: 300px;
+    width: 280px;
     display: flex;
     flex-direction: column;
     align-items: center;
